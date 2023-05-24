@@ -11,7 +11,7 @@ countR = 0 # решки
 for i in range(n):
     x = int(input("Если решка, введите 1, если герб - 0: "))
     if x == 1 :
-            countR +=1
+        countR +=1
     elif x == 0 :
         countG +=1
     else :
