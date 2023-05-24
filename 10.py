@@ -6,9 +6,8 @@
 # нужно перевернуть.
 
 n = int(input("Введите число n: "))
-countG = 0
-countR = 0
-min = 1000
+countG = 0 # гербы
+countR = 0 # решки
 for i in range(n):
     x = int(input("Если решка, введите 1, если герб - 2: "))
     if x == 1 :
